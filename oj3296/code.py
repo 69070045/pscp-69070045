@@ -1,0 +1,10 @@
+"""c0de"""
+se1 = input().split()
+se2 = input().split()
+R1 = int(se1[0])
+G1 = int(se1[1])
+B1 = int(se1[2])
+R2 = int(se2[0])
+G2= int(se2[1])
+B2 = int(se2[2])
+print(((R1 + R2) // 2),((G1 + G2) // 2),((B1 + B2) // 2))
